@@ -87,6 +87,10 @@ class Contract < ApplicationRecord
    contract_price - giveaways_charge
   end
 
+  def contractref
+    contract_price - referral_fee_amount
+  end
+
 
 
    define_easy_dates do
