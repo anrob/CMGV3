@@ -100,7 +100,7 @@ Rails.application.configure do
     port:           '587',
     authentication: :plain,
     user_name:      "support@confirmmygig.com",
-    password:       "shaina_randi1995"
+    password:       "Rothgeb14670cmg"
   }
   ActionMailer::Base.delivery_method = :smtp
 end
